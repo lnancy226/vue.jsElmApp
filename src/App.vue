@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- 头部 -->
-    <v-header></v-header>
+    <v-header :seller='seller'></v-header>
     <!-- 导航 -->
     <div class="tab border-1px">
       <div class="tab-item">
